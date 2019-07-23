@@ -6,6 +6,7 @@ import { SettingsComponent } from './settings/settings.component';
 
 
 const routes: Routes = [
+  {path: '', component: HomeComponent},
   {path: 'home', component: HomeComponent},
   {path: 'settings', component: SettingsComponent}
 ];
